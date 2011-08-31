@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB64358140EDBB100B2F000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB64357140EDBB100B2F000 /* UIKit.framework */; };
+		4CB6435A140EDBB100B2F000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB64359140EDBB100B2F000 /* Foundation.framework */; };
+		4CB6435C140EDBB100B2F000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB6435B140EDBB100B2F000 /* CoreGraphics.framework */; };
+		4CB64362140EDBB100B2F000 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64360140EDBB100B2F000 /* InfoPlist.strings */; };
+		4CB64364140EDBB100B2F000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB64363140EDBB100B2F000 /* main.m */; };
+		4CB64368140EDBB100B2F000 /* USPresidentsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB64367140EDBB100B2F000 /* USPresidentsAppDelegate.m */; };
+		4CB6436B140EDBB100B2F000 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64369140EDBB100B2F000 /* MainWindow.xib */; };
+		4CB6436E140EDBB100B2F000 /* USPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6436D140EDBB100B2F000 /* USPresidentsViewController.m */; };
+		4CB64371140EDBB100B2F000 /* USPresidentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6436F140EDBB100B2F000 /* USPresidentsViewController.xib */; };
+		4CB643A5140EDBE600B2F000 /* AbrahamLincoln.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64378140EDBE600B2F000 /* AbrahamLincoln.png */; };
+		4CB643A6140EDBE600B2F000 /* AndrewJackson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64379140EDBE600B2F000 /* AndrewJackson.png */; };
+		4CB643A7140EDBE600B2F000 /* AndrewJohnson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6437A140EDBE600B2F000 /* AndrewJohnson.png */; };
+		4CB643A8140EDBE600B2F000 /* BarackObama.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6437B140EDBE600B2F000 /* BarackObama.png */; };
+		4CB643A9140EDBE600B2F000 /* BenjaminHarrison.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6437C140EDBE600B2F000 /* BenjaminHarrison.png */; };
+		4CB643AA140EDBE600B2F000 /* CalvinCoolidge.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6437D140EDBE600B2F000 /* CalvinCoolidge.png */; };
+		4CB643AB140EDBE600B2F000 /* ChesterArthur.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6437E140EDBE600B2F000 /* ChesterArthur.png */; };
+		4CB643AC140EDBE600B2F000 /* Clinton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6437F140EDBE600B2F000 /* Clinton.png */; };
+		4CB643AD140EDBE600B2F000 /* DwightEisenhower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64380140EDBE600B2F000 /* DwightEisenhower.png */; };
+		4CB643AE140EDBE600B2F000 /* FranklinPierce.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64381140EDBE600B2F000 /* FranklinPierce.png */; };
+		4CB643AF140EDBE600B2F000 /* FranklinRoosevelt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64382140EDBE600B2F000 /* FranklinRoosevelt.png */; };
+		4CB643B0140EDBE600B2F000 /* GeorgeHWBush.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64383140EDBE600B2F000 /* GeorgeHWBush.png */; };
+		4CB643B1140EDBE600B2F000 /* GeorgeWashington.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64384140EDBE600B2F000 /* GeorgeWashington.png */; };
+		4CB643B2140EDBE600B2F000 /* GeorgeWBush.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64385140EDBE600B2F000 /* GeorgeWBush.png */; };
+		4CB643B3140EDBE600B2F000 /* GeraldFord.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64386140EDBE600B2F000 /* GeraldFord.png */; };
+		4CB643B4140EDBE600B2F000 /* GroverCleveland.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64387140EDBE600B2F000 /* GroverCleveland.png */; };
+		4CB643B5140EDBE600B2F000 /* GroverCleveland2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64388140EDBE600B2F000 /* GroverCleveland2.png */; };
+		4CB643B6140EDBE600B2F000 /* HarryTruman.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64389140EDBE600B2F000 /* HarryTruman.png */; };
+		4CB643B7140EDBE600B2F000 /* HerbertHoover.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6438A140EDBE600B2F000 /* HerbertHoover.png */; };
+		4CB643B8140EDBE600B2F000 /* JamesBuchanan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6438B140EDBE600B2F000 /* JamesBuchanan.png */; };
+		4CB643B9140EDBE600B2F000 /* JamesGarfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6438C140EDBE600B2F000 /* JamesGarfield.png */; };
+		4CB643BA140EDBE600B2F000 /* JamesKnoxPolk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6438D140EDBE600B2F000 /* JamesKnoxPolk.png */; };
+		4CB643BB140EDBE600B2F000 /* JamesMadison.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6438E140EDBE600B2F000 /* JamesMadison.png */; };
+		4CB643BC140EDBE600B2F000 /* JamesMonroe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6438F140EDBE600B2F000 /* JamesMonroe.png */; };
+		4CB643BD140EDBE600B2F000 /* JamesPolk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64390140EDBE600B2F000 /* JamesPolk.png */; };
+		4CB643BE140EDBE600B2F000 /* JimmyCarter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64391140EDBE600B2F000 /* JimmyCarter.png */; };
+		4CB643BF140EDBE600B2F000 /* JohnAdams.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64392140EDBE600B2F000 /* JohnAdams.png */; };
+		4CB643C0140EDBE600B2F000 /* JohnKennedy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64393140EDBE600B2F000 /* JohnKennedy.png */; };
+		4CB643C1140EDBE600B2F000 /* JohnQAdams.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64394140EDBE600B2F000 /* JohnQAdams.png */; };
+		4CB643C2140EDBE600B2F000 /* JohnTyler.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64395140EDBE600B2F000 /* JohnTyler.png */; };
+		4CB643C3140EDBE600B2F000 /* LyndonJohnson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64396140EDBE600B2F000 /* LyndonJohnson.png */; };
+		4CB643C4140EDBE600B2F000 /* MartinVanBuren.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64397140EDBE600B2F000 /* MartinVanBuren.png */; };
+		4CB643C5140EDBE600B2F000 /* MillardFillmore.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64398140EDBE600B2F000 /* MillardFillmore.png */; };
+		4CB643C6140EDBE600B2F000 /* RichardNixon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB64399140EDBE600B2F000 /* RichardNixon.png */; };
+		4CB643C7140EDBE600B2F000 /* RonaldReagan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6439A140EDBE600B2F000 /* RonaldReagan.png */; };
+		4CB643C8140EDBE600B2F000 /* RutherfordHayes.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6439B140EDBE600B2F000 /* RutherfordHayes.png */; };
+		4CB643C9140EDBE600B2F000 /* TheodoreRoosevelt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6439C140EDBE600B2F000 /* TheodoreRoosevelt.png */; };
+		4CB643CA140EDBE600B2F000 /* ThomasJefferson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6439D140EDBE600B2F000 /* ThomasJefferson.png */; };
+		4CB643CB140EDBE600B2F000 /* UlyssesGrant.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6439E140EDBE600B2F000 /* UlyssesGrant.png */; };
+		4CB643CC140EDBE600B2F000 /* WarrenHarding.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6439F140EDBE600B2F000 /* WarrenHarding.png */; };
+		4CB643CD140EDBE600B2F000 /* WilliamHHarrison.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A0140EDBE600B2F000 /* WilliamHHarrison.png */; };
+		4CB643CE140EDBE600B2F000 /* WilliamHTaft.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A1140EDBE600B2F000 /* WilliamHTaft.png */; };
+		4CB643CF140EDBE600B2F000 /* WilliamMcKinley.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A2140EDBE600B2F000 /* WilliamMcKinley.png */; };
+		4CB643D0140EDBE600B2F000 /* WoodrowWilson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A3140EDBE600B2F000 /* WoodrowWilson.png */; };
+		4CB643D1140EDBE600B2F000 /* ZacharyTaylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A4140EDBE600B2F000 /* ZacharyTaylor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CB64353140EDBB100B2F000 /* USPresidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USPresidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB64357140EDBB100B2F000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CB64359140EDBB100B2F000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CB6435B140EDBB100B2F000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CB6435F140EDBB100B2F000 /* USPresidents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "USPresidents-Info.plist"; sourceTree = "<group>"; };
+		4CB64361140EDBB100B2F000 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CB64363140EDBB100B2F000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CB64365140EDBB100B2F000 /* USPresidents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USPresidents-Prefix.pch"; sourceTree = "<group>"; };
+		4CB64366140EDBB100B2F000 /* USPresidentsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USPresidentsAppDelegate.h; sourceTree = "<group>"; };
+		4CB64367140EDBB100B2F000 /* USPresidentsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USPresidentsAppDelegate.m; sourceTree = "<group>"; };
+		4CB6436A140EDBB100B2F000 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4CB6436C140EDBB100B2F000 /* USPresidentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USPresidentsViewController.h; sourceTree = "<group>"; };
+		4CB6436D140EDBB100B2F000 /* USPresidentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USPresidentsViewController.m; sourceTree = "<group>"; };
+		4CB64370140EDBB100B2F000 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/USPresidentsViewController.xib; sourceTree = "<group>"; };
+		4CB64378140EDBE600B2F000 /* AbrahamLincoln.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbrahamLincoln.png; sourceTree = "<group>"; };
+		4CB64379140EDBE600B2F000 /* AndrewJackson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AndrewJackson.png; sourceTree = "<group>"; };
+		4CB6437A140EDBE600B2F000 /* AndrewJohnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AndrewJohnson.png; sourceTree = "<group>"; };
+		4CB6437B140EDBE600B2F000 /* BarackObama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarackObama.png; sourceTree = "<group>"; };
+		4CB6437C140EDBE600B2F000 /* BenjaminHarrison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BenjaminHarrison.png; sourceTree = "<group>"; };
+		4CB6437D140EDBE600B2F000 /* CalvinCoolidge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalvinCoolidge.png; sourceTree = "<group>"; };
+		4CB6437E140EDBE600B2F000 /* ChesterArthur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChesterArthur.png; sourceTree = "<group>"; };
+		4CB6437F140EDBE600B2F000 /* Clinton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clinton.png; sourceTree = "<group>"; };
+		4CB64380140EDBE600B2F000 /* DwightEisenhower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DwightEisenhower.png; sourceTree = "<group>"; };
+		4CB64381140EDBE600B2F000 /* FranklinPierce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FranklinPierce.png; sourceTree = "<group>"; };
+		4CB64382140EDBE600B2F000 /* FranklinRoosevelt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FranklinRoosevelt.png; sourceTree = "<group>"; };
+		4CB64383140EDBE600B2F000 /* GeorgeHWBush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeorgeHWBush.png; sourceTree = "<group>"; };
+		4CB64384140EDBE600B2F000 /* GeorgeWashington.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeorgeWashington.png; sourceTree = "<group>"; };
+		4CB64385140EDBE600B2F000 /* GeorgeWBush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeorgeWBush.png; sourceTree = "<group>"; };
+		4CB64386140EDBE600B2F000 /* GeraldFord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeraldFord.png; sourceTree = "<group>"; };
+		4CB64387140EDBE600B2F000 /* GroverCleveland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroverCleveland.png; sourceTree = "<group>"; };
+		4CB64388140EDBE600B2F000 /* GroverCleveland2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroverCleveland2.png; sourceTree = "<group>"; };
+		4CB64389140EDBE600B2F000 /* HarryTruman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HarryTruman.png; sourceTree = "<group>"; };
+		4CB6438A140EDBE600B2F000 /* HerbertHoover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HerbertHoover.png; sourceTree = "<group>"; };
+		4CB6438B140EDBE600B2F000 /* JamesBuchanan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesBuchanan.png; sourceTree = "<group>"; };
+		4CB6438C140EDBE600B2F000 /* JamesGarfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesGarfield.png; sourceTree = "<group>"; };
+		4CB6438D140EDBE600B2F000 /* JamesKnoxPolk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesKnoxPolk.png; sourceTree = "<group>"; };
+		4CB6438E140EDBE600B2F000 /* JamesMadison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesMadison.png; sourceTree = "<group>"; };
+		4CB6438F140EDBE600B2F000 /* JamesMonroe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesMonroe.png; sourceTree = "<group>"; };
+		4CB64390140EDBE600B2F000 /* JamesPolk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JamesPolk.png; sourceTree = "<group>"; };
+		4CB64391140EDBE600B2F000 /* JimmyCarter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JimmyCarter.png; sourceTree = "<group>"; };
+		4CB64392140EDBE600B2F000 /* JohnAdams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JohnAdams.png; sourceTree = "<group>"; };
+		4CB64393140EDBE600B2F000 /* JohnKennedy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JohnKennedy.png; sourceTree = "<group>"; };
+		4CB64394140EDBE600B2F000 /* JohnQAdams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JohnQAdams.png; sourceTree = "<group>"; };
+		4CB64395140EDBE600B2F000 /* JohnTyler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JohnTyler.png; sourceTree = "<group>"; };
+		4CB64396140EDBE600B2F000 /* LyndonJohnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LyndonJohnson.png; sourceTree = "<group>"; };
+		4CB64397140EDBE600B2F000 /* MartinVanBuren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MartinVanBuren.png; sourceTree = "<group>"; };
+		4CB64398140EDBE600B2F000 /* MillardFillmore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MillardFillmore.png; sourceTree = "<group>"; };
+		4CB64399140EDBE600B2F000 /* RichardNixon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RichardNixon.png; sourceTree = "<group>"; };
+		4CB6439A140EDBE600B2F000 /* RonaldReagan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RonaldReagan.png; sourceTree = "<group>"; };
+		4CB6439B140EDBE600B2F000 /* RutherfordHayes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RutherfordHayes.png; sourceTree = "<group>"; };
+		4CB6439C140EDBE600B2F000 /* TheodoreRoosevelt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheodoreRoosevelt.png; sourceTree = "<group>"; };
+		4CB6439D140EDBE600B2F000 /* ThomasJefferson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThomasJefferson.png; sourceTree = "<group>"; };
+		4CB6439E140EDBE600B2F000 /* UlyssesGrant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UlyssesGrant.png; sourceTree = "<group>"; };
+		4CB6439F140EDBE600B2F000 /* WarrenHarding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WarrenHarding.png; sourceTree = "<group>"; };
+		4CB643A0140EDBE600B2F000 /* WilliamHHarrison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WilliamHHarrison.png; sourceTree = "<group>"; };
+		4CB643A1140EDBE600B2F000 /* WilliamHTaft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WilliamHTaft.png; sourceTree = "<group>"; };
+		4CB643A2140EDBE600B2F000 /* WilliamMcKinley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WilliamMcKinley.png; sourceTree = "<group>"; };
+		4CB643A3140EDBE600B2F000 /* WoodrowWilson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodrowWilson.png; sourceTree = "<group>"; };
+		4CB643A4140EDBE600B2F000 /* ZacharyTaylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZacharyTaylor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB64350140EDBB100B2F000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB64358140EDBB100B2F000 /* UIKit.framework in Frameworks */,
+				4CB6435A140EDBB100B2F000 /* Foundation.framework in Frameworks */,
+				4CB6435C140EDBB100B2F000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB64348140EDBB100B2F000 = {
+			isa = PBXGroup;
+			children = (
+				4CB6435D140EDBB100B2F000 /* USPresidents */,
+				4CB64356140EDBB100B2F000 /* Frameworks */,
+				4CB64354140EDBB100B2F000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB64354140EDBB100B2F000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB64353140EDBB100B2F000 /* USPresidents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB64356140EDBB100B2F000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB64357140EDBB100B2F000 /* UIKit.framework */,
+				4CB64359140EDBB100B2F000 /* Foundation.framework */,
+				4CB6435B140EDBB100B2F000 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB6435D140EDBB100B2F000 /* USPresidents */ = {
+			isa = PBXGroup;
+			children = (
+				4CB64366140EDBB100B2F000 /* USPresidentsAppDelegate.h */,
+				4CB64367140EDBB100B2F000 /* USPresidentsAppDelegate.m */,
+				4CB64369140EDBB100B2F000 /* MainWindow.xib */,
+				4CB6436C140EDBB100B2F000 /* USPresidentsViewController.h */,
+				4CB6436D140EDBB100B2F000 /* USPresidentsViewController.m */,
+				4CB6436F140EDBB100B2F000 /* USPresidentsViewController.xib */,
+				4CB6435E140EDBB100B2F000 /* Supporting Files */,
+			);
+			path = USPresidents;
+			sourceTree = "<group>";
+		};
+		4CB6435E140EDBB100B2F000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB64377140EDBE600B2F000 /* photos */,
+				4CB6435F140EDBB100B2F000 /* USPresidents-Info.plist */,
+				4CB64360140EDBB100B2F000 /* InfoPlist.strings */,
+				4CB64363140EDBB100B2F000 /* main.m */,
+				4CB64365140EDBB100B2F000 /* USPresidents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB64377140EDBE600B2F000 /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				4CB64378140EDBE600B2F000 /* AbrahamLincoln.png */,
+				4CB64379140EDBE600B2F000 /* AndrewJackson.png */,
+				4CB6437A140EDBE600B2F000 /* AndrewJohnson.png */,
+				4CB6437B140EDBE600B2F000 /* BarackObama.png */,
+				4CB6437C140EDBE600B2F000 /* BenjaminHarrison.png */,
+				4CB6437D140EDBE600B2F000 /* CalvinCoolidge.png */,
+				4CB6437E140EDBE600B2F000 /* ChesterArthur.png */,
+				4CB6437F140EDBE600B2F000 /* Clinton.png */,
+				4CB64380140EDBE600B2F000 /* DwightEisenhower.png */,
+				4CB64381140EDBE600B2F000 /* FranklinPierce.png */,
+				4CB64382140EDBE600B2F000 /* FranklinRoosevelt.png */,
+				4CB64383140EDBE600B2F000 /* GeorgeHWBush.png */,
+				4CB64384140EDBE600B2F000 /* GeorgeWashington.png */,
+				4CB64385140EDBE600B2F000 /* GeorgeWBush.png */,
+				4CB64386140EDBE600B2F000 /* GeraldFord.png */,
+				4CB64387140EDBE600B2F000 /* GroverCleveland.png */,
+				4CB64388140EDBE600B2F000 /* GroverCleveland2.png */,
+				4CB64389140EDBE600B2F000 /* HarryTruman.png */,
+				4CB6438A140EDBE600B2F000 /* HerbertHoover.png */,
+				4CB6438B140EDBE600B2F000 /* JamesBuchanan.png */,
+				4CB6438C140EDBE600B2F000 /* JamesGarfield.png */,
+				4CB6438D140EDBE600B2F000 /* JamesKnoxPolk.png */,
+				4CB6438E140EDBE600B2F000 /* JamesMadison.png */,
+				4CB6438F140EDBE600B2F000 /* JamesMonroe.png */,
+				4CB64390140EDBE600B2F000 /* JamesPolk.png */,
+				4CB64391140EDBE600B2F000 /* JimmyCarter.png */,
+				4CB64392140EDBE600B2F000 /* JohnAdams.png */,
+				4CB64393140EDBE600B2F000 /* JohnKennedy.png */,
+				4CB64394140EDBE600B2F000 /* JohnQAdams.png */,
+				4CB64395140EDBE600B2F000 /* JohnTyler.png */,
+				4CB64396140EDBE600B2F000 /* LyndonJohnson.png */,
+				4CB64397140EDBE600B2F000 /* MartinVanBuren.png */,
+				4CB64398140EDBE600B2F000 /* MillardFillmore.png */,
+				4CB64399140EDBE600B2F000 /* RichardNixon.png */,
+				4CB6439A140EDBE600B2F000 /* RonaldReagan.png */,
+				4CB6439B140EDBE600B2F000 /* RutherfordHayes.png */,
+				4CB6439C140EDBE600B2F000 /* TheodoreRoosevelt.png */,
+				4CB6439D140EDBE600B2F000 /* ThomasJefferson.png */,
+				4CB6439E140EDBE600B2F000 /* UlyssesGrant.png */,
+				4CB6439F140EDBE600B2F000 /* WarrenHarding.png */,
+				4CB643A0140EDBE600B2F000 /* WilliamHHarrison.png */,
+				4CB643A1140EDBE600B2F000 /* WilliamHTaft.png */,
+				4CB643A2140EDBE600B2F000 /* WilliamMcKinley.png */,
+				4CB643A3140EDBE600B2F000 /* WoodrowWilson.png */,
+				4CB643A4140EDBE600B2F000 /* ZacharyTaylor.png */,
+			);
+			path = photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB64352140EDBB100B2F000 /* USPresidents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB64374140EDBB100B2F000 /* Build configuration list for PBXNativeTarget "USPresidents" */;
+			buildPhases = (
+				4CB6434F140EDBB100B2F000 /* Sources */,
+				4CB64350140EDBB100B2F000 /* Frameworks */,
+				4CB64351140EDBB100B2F000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USPresidents;
+			productName = USPresidents;
+			productReference = 4CB64353140EDBB100B2F000 /* USPresidents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB6434A140EDBB100B2F000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = RoveWorks;
+			};
+			buildConfigurationList = 4CB6434D140EDBB100B2F000 /* Build configuration list for PBXProject "USPresidents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CB64348140EDBB100B2F000;
+			productRefGroup = 4CB64354140EDBB100B2F000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB64352140EDBB100B2F000 /* USPresidents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB64351140EDBB100B2F000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB64362140EDBB100B2F000 /* InfoPlist.strings in Resources */,
+				4CB6436B140EDBB100B2F000 /* MainWindow.xib in Resources */,
+				4CB64371140EDBB100B2F000 /* USPresidentsViewController.xib in Resources */,
+				4CB643A5140EDBE600B2F000 /* AbrahamLincoln.png in Resources */,
+				4CB643A6140EDBE600B2F000 /* AndrewJackson.png in Resources */,
+				4CB643A7140EDBE600B2F000 /* AndrewJohnson.png in Resources */,
+				4CB643A8140EDBE600B2F000 /* BarackObama.png in Resources */,
+				4CB643A9140EDBE600B2F000 /* BenjaminHarrison.png in Resources */,
+				4CB643AA140EDBE600B2F000 /* CalvinCoolidge.png in Resources */,
+				4CB643AB140EDBE600B2F000 /* ChesterArthur.png in Resources */,
+				4CB643AC140EDBE600B2F000 /* Clinton.png in Resources */,
+				4CB643AD140EDBE600B2F000 /* DwightEisenhower.png in Resources */,
+				4CB643AE140EDBE600B2F000 /* FranklinPierce.png in Resources */,
+				4CB643AF140EDBE600B2F000 /* FranklinRoosevelt.png in Resources */,
+				4CB643B0140EDBE600B2F000 /* GeorgeHWBush.png in Resources */,
+				4CB643B1140EDBE600B2F000 /* GeorgeWashington.png in Resources */,
+				4CB643B2140EDBE600B2F000 /* GeorgeWBush.png in Resources */,
+				4CB643B3140EDBE600B2F000 /* GeraldFord.png in Resources */,
+				4CB643B4140EDBE600B2F000 /* GroverCleveland.png in Resources */,
+				4CB643B5140EDBE600B2F000 /* GroverCleveland2.png in Resources */,
+				4CB643B6140EDBE600B2F000 /* HarryTruman.png in Resources */,
+				4CB643B7140EDBE600B2F000 /* HerbertHoover.png in Resources */,
+				4CB643B8140EDBE600B2F000 /* JamesBuchanan.png in Resources */,
+				4CB643B9140EDBE600B2F000 /* JamesGarfield.png in Resources */,
+				4CB643BA140EDBE600B2F000 /* JamesKnoxPolk.png in Resources */,
+				4CB643BB140EDBE600B2F000 /* JamesMadison.png in Resources */,
+				4CB643BC140EDBE600B2F000 /* JamesMonroe.png in Resources */,
+				4CB643BD140EDBE600B2F000 /* JamesPolk.png in Resources */,
+				4CB643BE140EDBE600B2F000 /* JimmyCarter.png in Resources */,
+				4CB643BF140EDBE600B2F000 /* JohnAdams.png in Resources */,
+				4CB643C0140EDBE600B2F000 /* JohnKennedy.png in Resources */,
+				4CB643C1140EDBE600B2F000 /* JohnQAdams.png in Resources */,
+				4CB643C2140EDBE600B2F000 /* JohnTyler.png in Resources */,
+				4CB643C3140EDBE600B2F000 /* LyndonJohnson.png in Resources */,
+				4CB643C4140EDBE600B2F000 /* MartinVanBuren.png in Resources */,
+				4CB643C5140EDBE600B2F000 /* MillardFillmore.png in Resources */,
+				4CB643C6140EDBE600B2F000 /* RichardNixon.png in Resources */,
+				4CB643C7140EDBE600B2F000 /* RonaldReagan.png in Resources */,
+				4CB643C8140EDBE600B2F000 /* RutherfordHayes.png in Resources */,
+				4CB643C9140EDBE600B2F000 /* TheodoreRoosevelt.png in Resources */,
+				4CB643CA140EDBE600B2F000 /* ThomasJefferson.png in Resources */,
+				4CB643CB140EDBE600B2F000 /* UlyssesGrant.png in Resources */,
+				4CB643CC140EDBE600B2F000 /* WarrenHarding.png in Resources */,
+				4CB643CD140EDBE600B2F000 /* WilliamHHarrison.png in Resources */,
+				4CB643CE140EDBE600B2F000 /* WilliamHTaft.png in Resources */,
+				4CB643CF140EDBE600B2F000 /* WilliamMcKinley.png in Resources */,
+				4CB643D0140EDBE600B2F000 /* WoodrowWilson.png in Resources */,
+				4CB643D1140EDBE600B2F000 /* ZacharyTaylor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB6434F140EDBB100B2F000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB64364140EDBB100B2F000 /* main.m in Sources */,
+				4CB64368140EDBB100B2F000 /* USPresidentsAppDelegate.m in Sources */,
+				4CB6436E140EDBB100B2F000 /* USPresidentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CB64360140EDBB100B2F000 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB64361140EDBB100B2F000 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CB64369140EDBB100B2F000 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB6436A140EDBB100B2F000 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4CB6436F140EDBB100B2F000 /* USPresidentsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB64370140EDBB100B2F000 /* en */,
+			);
+			name = USPresidentsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB64372140EDBB100B2F000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CB64373140EDBB100B2F000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB64375140EDBB100B2F000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USPresidents/USPresidents-Prefix.pch";
+				INFOPLIST_FILE = "USPresidents/USPresidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CB64376140EDBB100B2F000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "USPresidents/USPresidents-Prefix.pch";
+				INFOPLIST_FILE = "USPresidents/USPresidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB6434D140EDBB100B2F000 /* Build configuration list for PBXProject "USPresidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB64372140EDBB100B2F000 /* Debug */,
+				4CB64373140EDBB100B2F000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB64374140EDBB100B2F000 /* Build configuration list for PBXNativeTarget "USPresidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB64375140EDBB100B2F000 /* Debug */,
+				4CB64376140EDBB100B2F000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB6434A140EDBB100B2F000 /* Project object */;
+}
