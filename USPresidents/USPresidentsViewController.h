@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface USPresidentsViewController : UIViewController
+@class Presidents;
+
+@interface USPresidentsViewController : UIViewController {
+    Presidents *presidents;
+}
+@property (nonatomic, retain) Presidents *presidents;
 
 @end

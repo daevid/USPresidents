@@ -61,6 +61,7 @@
 		4CB643CF140EDBE600B2F000 /* WilliamMcKinley.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A2140EDBE600B2F000 /* WilliamMcKinley.png */; };
 		4CB643D0140EDBE600B2F000 /* WoodrowWilson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A3140EDBE600B2F000 /* WoodrowWilson.png */; };
 		4CB643D1140EDBE600B2F000 /* ZacharyTaylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB643A4140EDBE600B2F000 /* ZacharyTaylor.png */; };
+		4CB643D4140EE02400B2F000 /* Presidents.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB643D3140EE02400B2F000 /* Presidents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,8 @@
 		4CB643A2140EDBE600B2F000 /* WilliamMcKinley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WilliamMcKinley.png; sourceTree = "<group>"; };
 		4CB643A3140EDBE600B2F000 /* WoodrowWilson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodrowWilson.png; sourceTree = "<group>"; };
 		4CB643A4140EDBE600B2F000 /* ZacharyTaylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZacharyTaylor.png; sourceTree = "<group>"; };
+		4CB643D2140EE02400B2F000 /* Presidents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presidents.h; sourceTree = "<group>"; };
+		4CB643D3140EE02400B2F000 /* Presidents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presidents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 				4CB6436C140EDBB100B2F000 /* USPresidentsViewController.h */,
 				4CB6436D140EDBB100B2F000 /* USPresidentsViewController.m */,
 				4CB6436F140EDBB100B2F000 /* USPresidentsViewController.xib */,
+				4CB643D2140EE02400B2F000 /* Presidents.h */,
+				4CB643D3140EE02400B2F000 /* Presidents.m */,
 				4CB6435E140EDBB100B2F000 /* Supporting Files */,
 			);
 			path = USPresidents;
@@ -355,6 +360,7 @@
 				4CB64364140EDBB100B2F000 /* main.m in Sources */,
 				4CB64368140EDBB100B2F000 /* USPresidentsAppDelegate.m in Sources */,
 				4CB6436E140EDBB100B2F000 /* USPresidentsViewController.m in Sources */,
+				4CB643D4140EE02400B2F000 /* Presidents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
